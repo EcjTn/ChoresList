@@ -37,10 +37,13 @@ All chore data is stored in a JSON file (e.g., list.json)
 
 Each entry looks like:
 
+```
    {
      "title": "Laundry",
      "description": "Wash and dry clothes before 6 PM"
    }
+
+```
 
 ## 📌 Notes
 
