@@ -1,7 +1,6 @@
 import { checkArgs, parsedData } from "./functions/AddChore.js";
 import { checkRemoveArgs } from "./functions/RemoveChore.js";
 
-console.clear() //optional lol
 
 const commands = {
     add: checkArgs,
