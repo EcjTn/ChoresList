@@ -21,15 +21,19 @@ Run the CLI using:
 
 Available Commands:
 
+```
    add      -> Add a new chore
    list     -> Display all saved chores
    remove   -> Remove a chore by title
+```
 
 Examples:
 
+```
    node index.js add "title" "description"
    node index.js list
    node index.js remove "title"
+```
 
 ## 📁 Data Storage
 
@@ -42,7 +46,6 @@ Each entry looks like:
      "title": "Laundry",
      "description": "Wash and dry clothes before 6 PM"
    }
-
 ```
 
 ## 📌 Notes
