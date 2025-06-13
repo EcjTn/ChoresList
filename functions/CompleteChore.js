@@ -2,7 +2,6 @@ import fs from 'fs/promises'
 
 const list = await fs.readFile("chores/list.json", "utf-8")
 const parsedData = JSON.parse(list)
-//
 
 function checkCompleteArgs() {
     if(process.argv[3] === undefined) {
@@ -11,8 +10,6 @@ function checkCompleteArgs() {
     }
     completeChores()
 }
-
-
 
 async function completeChores() {
     const findData = parsedData.findIndex((item) => item.title === process.argv[3]) //returns a number
