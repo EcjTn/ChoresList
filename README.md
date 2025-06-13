@@ -30,9 +30,10 @@ Available Commands:
 Examples:
 
 ```
-   node index.js add "title" "description"
-   node index.js list
-   node index.js remove "title"
+   node main.js add "title" "description"
+   node main.js remove "title"
+   node main.js complete "title
+   node main.js list
 ```
 
 ## 📁 Data Storage
