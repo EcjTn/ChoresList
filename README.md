@@ -8,6 +8,7 @@ Stores data in a .json file with title and description.
 - Add a new chore (title + description)
 - List all chores
 - Remove a chore by title
+- Complete a chore by title
 
 ## 🛠 Requirements
 
